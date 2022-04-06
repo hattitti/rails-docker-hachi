@@ -2,6 +2,7 @@ require "test_helper"
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   test "the truth" do
-    assert true
+    puts ENV["RAILS_ENV"]
+    assert false
   end
 end
