@@ -38,7 +38,6 @@ jobs:
           name: test
           command: bundle exec rake test
 
-# ジョブの実行順の指定
 workflows:
   version: 2
   build_test:
